@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    font-family: "Playfair Display", serif;
+    /* outline:  solid red 2px; */
+}
+body{
+    background-color:rgb(24, 24, 55) ;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color:rgb(24, 24, 55) ;
+    font-weight: bold;
+}
+.main__nav{
+    background-color: rgb(73, 72, 72);
+}
+.card-body{
+    background-color:rgb(59, 59, 138) ;
+}
+.cardsection:hover{
+    transition: all 0.5s ease-out;
+    transform: scale(0.9);
+}
